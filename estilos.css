@@ -1,0 +1,41 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-color: aqua;
+
+}
+
+
+
+
+div{
+    position: absolute;
+    background-color:  rgba(0, 0,0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 80px;
+    border: none;
+}
+
+button{
+    background-color:dodgerblue;
+    cursor: pointer;
+    font-family:monospace;
+    padding: 7px;
+    width: 100%;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    background-color:cyan;
+}
+
+h1{margin-left: 40px;
+    color: whitesmoke
+}
+input{
+    outline:none;
+    padding: 4px;
+}

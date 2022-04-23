@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+a{
+    color: white;
+    transition: 0,5s;
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 1;
+}
+
+/*texto do meu site */
+.logo{
+    font-size: 24px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-right: 600px;
+}
+
+/*barra de navegaçao */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Palatino';
+    background-color: #23232e;
+    height: 8vh;
+}
+
+/*main que fica o background*/
+main{
+    background: url("assets/bg.jpg") no-repeat center ;
+    background-size: cover;
+    height: 92vh;
+}
+/* caixa transparente */
+.caixa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.texto{
+    font-weight: 1200;
+    font-family: 'palatio';
+    color: black;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 2vw 4vw ;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+    color: antiquewhite;
+    cursor: pointer;
+    
+}
+.caixa2{
+    background: url("assets/mulhernopc.jpg");
+    margin-top: 25px;
+    background-size: cover;
+    height: 92vh;
+    margin-top: 50px;
+}
+
+
+.texto2{
+    font-weight: 1200;
+    font-family: 'palatio';
+    color: black;
+    padding: 2vw 4vw ;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    text-align: center;
+}
+.txt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Palatino';
+    background-color: #9898e2;
+    height: 8vh;
+    color: blanchedalmond;
+}
+.card1{
+    background: url('assets/cubos.jpg');
+    width: 700px;
+    height: 700px;
+
+}
+#container{
+    background: url('assets/camera.jpg');
+    width: 100%;
+    height:100vw;
+    
+}
